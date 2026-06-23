@@ -1,77 +1,76 @@
-Task 1: Supermart Sales Analysis
+# Task 1: Supermart Sales Analysis
 
-#Project Overview:
-This project involves Exploratory Data Analysis (EDA) of Supermart retail sales data using Microsoft Excel. The objective is to analyze sales performance, identify key revenue drivers, uncover regional trends, and generate actionable business insights through data visualization.
+## Project Overview
+This project performs Exploratory Data Analysis (EDA) on Supermart retail sales data using Microsoft Excel. The objective is to evaluate sales performance, identify key revenue drivers, and uncover trends to support business decision-making.
 
-#Tasks Performed:
- > Data Cleaning
- > Sales by Category Analysis
- > Sales by City Analysis
- > Time Series Analysis (Sales Trend Over Time)
- > Data Visualization using Charts
- > Insights and Recommendations
-  
-#Tools & Techniques:
- > Microsoft Excel
- > Pivot Tables
- > Bar Charts
- > Line Charts
- > Data Analysis and Visualization
-  
-#Key Insights:
- > Sales demonstrated a steady upward trend from 2015 to 2018, indicating consistent business growth.
- > Eggs, Meat & Fish emerged as the highest revenue-generating product category.
- > Kanyakumari and Vellore were identified as the top-performing cities based on sales.
- > Sales consistently increased during the September–December period, highlighting strong seasonal demand.
- > Lower sales were observed during January–February, indicating seasonal fluctuations in customer purchasing behavior.
-  
-#Recommendations:
- > Focus marketing campaigns during peak months (September–December) to maximize revenue.
- > Increase inventory for high-performing categories like Eggs, Meat & Fish and Snacks.
- > Improve sales strategies in mid- and low-performing cities to boost overall revenue.
- > Use seasonal trends to plan discounts, offers, and promotional campaigns.
- > Analyze customer behavior further to personalize marketing strategies.
+## Tasks Performed
+- Data cleaning and preprocessing
+- Sales analysis by category
+- Sales analysis by city
+- Time series analysis (sales trends over time)
+- Data visualization using charts
+- Insight generation and recommendations
 
-#Conclusion:
-The analysis reveals a clear growth trend in sales along with seasonal patterns and regional performance differences.  
-By leveraging these insights, businesses can make data-driven decisions to improve sales, optimize inventory, and enhance overall performance.
+## Tools and Techniques
+- Microsoft Excel
+- Pivot Tables
+- Bar Charts
+- Line Charts
+- Data analysis and visualization
 
-Task2: Customer Segmentation using K-Means
+## Key Insights
+- Sales showed a consistent upward trend from 2015 to 2018, indicating steady business growth.
+- Eggs, Meat and Fish generated the highest revenue among all categories.
+- Kanyakumari and Vellore were identified as top-performing cities.
+- Sales peaked during September to December, showing strong seasonal demand.
+- Lower sales were observed during January and February, indicating seasonal slowdown.
 
-#Project Overview:
-This project focuses on customer segmentation using K-Means clustering. The goal is to group customers based on their purchasing behavior and demographics to help businesses improve marketing strategies.
+## Recommendations
+- Focus marketing campaigns during peak months to maximize revenue.
+- Increase inventory for high-performing categories.
+- Improve sales strategies in underperforming cities.
+- Use seasonal trends to plan discounts and promotional campaigns.
+- Analyze customer behavior for personalized marketing strategies.
 
-#Dataset:
-The dataset contains customer information such as:
- > Income
- > Age
- > Purchase behavior
- > Product spending
+## Conclusion
+The analysis highlights clear growth trends, seasonal patterns, and regional performance differences. These insights support data-driven decision-making.
 
-#Steps Performed:
-1.Data Collection Loaded the dataset using pandas.
-2.Data Exploration Analyzed dataset structure using .head(), .info(), .describe().
-3.Feature Engineering Created new features:
- > Total Spending (MntTotal)
- > Total Purchases
- > Engagement Rate
-4.Data Preprocessing Scaled features using StandardScaler.
-5.Clustering Applied K-Means algorithm to segment customers into groups.
-6.Visualization Visualized clusters using scatter plots.
-7.Insights Identified different customer groups based on income and spending behavior.
 
-#Results:
- > High-value customers identified
- > Low engagement customers identified
- > Useful segmentation for marketing strategies
+# Task 2: Customer Segmentation using K-Means
 
-#Technologies Used:
- > Python
- > Pandas
- > NumPy
- > Scikit-learn
- > Matplotlib
- > Seaborn
+## Project Overview
+This project focuses on customer segmentation using K-Means clustering. The goal is to group customers based on purchasing behavior and demographics to improve marketing strategies.
 
-#Conclusion:
-Customer segmentation helps businesses understand customer behavior and improve targeted marketing.
+## Dataset
+- Income
+- Age
+- Purchase behavior
+- Product spending
+
+## Steps Performed
+1. Data collection: Loaded the dataset using pandas
+2. Data exploration: Used head(), info(), describe()
+3. Feature engineering:
+   - Total spending (MntTotal)
+   - Total purchases
+   - Engagement rate
+4. Data preprocessing: Applied StandardScaler
+5. Clustering: Implemented K-Means algorithm
+6. Visualization: Used scatter plots
+7. Insights: Identified customer segments
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+## Results
+- Identified high-value customers
+- Identified low-engagement customers
+- Created useful customer segments for targeted marketing
+
+## Conclusion
+Customer segmentation helps businesses understand customer behavior and improve marketing effectiveness.
