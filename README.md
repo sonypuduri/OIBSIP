@@ -74,3 +74,72 @@ This project focuses on customer segmentation using K-Means clustering. The goal
 
 ## Conclusion
 Customer segmentation helps businesses understand customer behavior and improve marketing effectiveness.
+
+
+# Task 3: Credit Card Fraud Detection using Machine Learning
+
+## Project Overview
+This project aims to identify fraudulent credit card transactions using machine learning techniques. Fraud detection is a critical problem in financial systems, especially because fraudulent transactions are extremely rare compared to normal ones. This imbalance makes the task more challenging and requires careful handling during model development.
+
+## Dataset Information
+The dataset consists of anonymized credit card transaction records.
+ -Most features are transformed using PCA for privacy reasons
+ -The dataset is highly imbalanced
+
+**Target Variable:**
+  `0` → Legitimate Transaction
+  `1` → Fraudulent Transaction
+  
+## Steps Performed
+### 1. Exploratory Data Analysis
+ -Analyzed the distribution of transactions
+ -Observed the imbalance between fraud and normal cases
+ -Visualized patterns using graphs and plots
+
+### 2. Handling Class Imbalance
+ -Used upsampling techniques to balance the dataset
+ -Ensured the model learns equally from both classes
+
+### 3. Feature Engineering
+ -Created additional features based on transaction amount
+ -Applied scaling to normalize data for better model performance
+
+### 4. Model Development
+ -Built a classification model using Logistic Regression
+ -Trained the model on the processed dataset
+
+### 5. Model Evaluation
+-Evaluated performance using:
+  -Confusion Matrix
+  -Classification Report
+  -Special focus was given to **recall**, as detecting fraud cases is more important than overall accuracy
+
+### 6. Anomaly Detection
+ -Implemented Isolation Forest algorithm
+ -Detected unusual and suspicious transaction patterns
+
+### 7. Real-Time Prediction Simulation
+ -Simulated predictions on new transaction inputs
+ -Classified transactions instantly as fraud or normal
+
+## Tools and Technologies
+ -Python
+ -Pandas
+ -NumPy
+ -Scikit-learn
+ -Matplotlib
+ -Seaborn
+ 
+## Results
+ -Achieved strong recall in detecting fraudulent transactions
+ -Successfully captured most fraud cases despite dataset imbalance
+ -Demonstrated the effectiveness of combining classification and anomaly detection techniques
+  
+## How to Use the Dataset
+1. Download the dataset in ZIP format
+2. Extract the files
+3. Load `creditcard.csv` into the notebook
+
+## Conclusion
+This project highlights how machine learning can be applied to real-world fraud detection problems. By properly handling imbalanced data and focusing on recall, the model becomes more effective in identifying fraudulent activities. The combination of supervised learning and anomaly detection further improves the overall performance.
+
