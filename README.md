@@ -76,7 +76,7 @@ This project focuses on customer segmentation using K-Means clustering. The goal
 Customer segmentation helps businesses understand customer behavior and improve marketing effectiveness.
 
 
-# Task 2: Credit Card Fraud Detection using Machine Learning
+# Task 3: Credit Card Fraud Detection using Machine Learning
 
 ## Project Overview
 This project aims to identify fraudulent credit card transactions using machine learning techniques. Fraud detection is a critical problem in financial systems, especially because fraudulent transactions are extremely rare compared to normal ones. This imbalance makes the task more challenging and requires careful handling during model development.
@@ -144,7 +144,3 @@ The dataset consists of anonymized credit card transaction records.
    
 ## Conclusion
 This project highlights how machine learning can be applied to real-world fraud detection problems. By properly handling imbalanced data and focusing on recall, the model becomes more effective in identifying fraudulent activities. The combination of supervised learning and anomaly detection further improves the overall performance.
-
-## Conclusion
-This project highlights how machine learning can be applied to real-world fraud detection problems. By properly handling imbalanced data and focusing on recall, the model becomes more effective in identifying fraudulent activities. The combination of supervised learning and anomaly detection further improves the overall performance.
-
